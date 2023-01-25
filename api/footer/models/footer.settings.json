@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "footers",
+  "info": {
+    "name": "Footer"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "h_1": {
+      "type": "string"
+    },
+    "span": {
+      "type": "string"
+    },
+    "imgarrow": {
+      "type": "richtext"
+    },
+    "h_2": {
+      "type": "string"
+    },
+    "p": {
+      "type": "richtext"
+    },
+    "imgsrc": {
+      "type": "richtext"
+    },
+    "itemnumber": {
+      "type": "string"
+    },
+    "class": {
+      "type": "string"
+    },
+    "classimage": {
+      "type": "string"
+    }
+  }
+}

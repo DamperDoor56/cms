@@ -1,0 +1,34 @@
+{
+  "kind": "collectionType",
+  "collectionName": "abouts",
+  "info": {
+    "name": "About"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "span": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "p": {
+      "type": "richtext"
+    },
+    "buttontext": {
+      "type": "string"
+    },
+    "imgbutton": {
+      "type": "richtext"
+    },
+    "imgsrc": {
+      "type": "richtext"
+    }
+  }
+}

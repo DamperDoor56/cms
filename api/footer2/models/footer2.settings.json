@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "footer2_s",
+  "info": {
+    "name": "footerparttwo"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "h1": {
+      "type": "string"
+    },
+    "imgsrc": {
+      "type": "richtext"
+    },
+    "a": {
+      "type": "string"
+    },
+    "href": {
+      "type": "string"
+    }
+  }
+}

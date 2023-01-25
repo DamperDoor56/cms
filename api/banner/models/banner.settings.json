@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "banners",
+  "info": {
+    "name": "Banner"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "h1": {
+      "type": "string"
+    },
+    "span": {
+      "type": "string"
+    },
+    "p": {
+      "type": "richtext"
+    },
+    "buttontext": {
+      "type": "string"
+    }
+  }
+}

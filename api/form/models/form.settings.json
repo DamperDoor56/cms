@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "forms",
+  "info": {
+    "name": "Form"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "h_1": {
+      "type": "string"
+    },
+    "p": {
+      "type": "richtext"
+    }
+  }
+}

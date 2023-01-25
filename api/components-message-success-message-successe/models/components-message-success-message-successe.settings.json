@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "components_message_success_message_successes",
+  "info": {
+    "name": "components_message_success_message_successe"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "h_1": {
+      "type": "string"
+    },
+    "p": {
+      "type": "richtext"
+    },
+    "buttontext": {
+      "type": "string"
+    },
+    "sendmail": {
+      "type": "richtext"
+    },
+    "closebutton": {
+      "type": "richtext"
+    }
+  }
+}

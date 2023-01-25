@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/components-message-success-message-successes",
+      "handler": "components-message-success-message-successe.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/components-message-success-message-successes/count",
+      "handler": "components-message-success-message-successe.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/components-message-success-message-successes/:id",
+      "handler": "components-message-success-message-successe.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/components-message-success-message-successes",
+      "handler": "components-message-success-message-successe.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/components-message-success-message-successes/:id",
+      "handler": "components-message-success-message-successe.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/components-message-success-message-successes/:id",
+      "handler": "components-message-success-message-successe.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

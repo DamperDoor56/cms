@@ -2,48 +2,48 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/lios",
-      "handler": "lio.find",
+      "path": "/form-apis",
+      "handler": "form-api.find",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/lios/count",
-      "handler": "lio.count",
+      "path": "/form-apis/count",
+      "handler": "form-api.count",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/lios/:id",
-      "handler": "lio.findOne",
+      "path": "/form-apis/:id",
+      "handler": "form-api.findOne",
       "config": {
         "policies": []
       }
     },
     {
       "method": "POST",
-      "path": "/lios",
-      "handler": "lio.create",
+      "path": "/form-apis",
+      "handler": "form-api.create",
       "config": {
         "policies": []
       }
     },
     {
       "method": "PUT",
-      "path": "/lios/:id",
-      "handler": "lio.update",
+      "path": "/form-apis/:id",
+      "handler": "form-api.update",
       "config": {
         "policies": []
       }
     },
     {
       "method": "DELETE",
-      "path": "/lios/:id",
-      "handler": "lio.delete",
+      "path": "/form-apis/:id",
+      "handler": "form-api.delete",
       "config": {
         "policies": []
       }

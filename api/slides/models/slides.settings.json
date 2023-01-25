@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "slides",
+  "info": {
+    "name": "Slides"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "p": {
+      "type": "richtext"
+    },
+    "redimage": {
+      "type": "richtext"
+    },
+    "redimage_2": {
+      "type": "richtext"
+    },
+    "ketchup": {
+      "type": "richtext"
+    }
+  }
+}

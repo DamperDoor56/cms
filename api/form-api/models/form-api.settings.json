@@ -1,0 +1,43 @@
+{
+  "kind": "collectionType",
+  "collectionName": "form_apis",
+  "info": {
+    "name": "Form_api"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "li_class": {
+      "type": "string"
+    },
+    "html_for": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string"
+    },
+    "placeholder": {
+      "type": "string"
+    },
+    "idinput": {
+      "type": "string"
+    },
+    "labelmsg": {
+      "type": "string"
+    },
+    "buttontext": {
+      "type": "string"
+    },
+    "aria_label": {
+      "type": "string"
+    },
+    "max_length": {
+      "type": "string"
+    }
+  }
+}

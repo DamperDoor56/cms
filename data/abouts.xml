@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <row>
+    <id>1</id>
+    <title>LA COMIDA ES</title>
+    <span>NUESTRO ARTE</span>
+    <subtitle>¿Quién es Foodies?</subtitle>
+    <p>Elit irure ad nulla id elit laborum nostrud mollit irure. Velit reprehenderit sunt nulla enim aliquip duis tempor est culpa fugiat consequat culpa consectetur Lorem Reprehenderit dolore culpa irure eiusmod minim occaecat et id minim ullamco.</p>
+    <buttontext>Contáctanos</buttontext>
+    <imgbutton>https://res.cloudinary.com/dweiaqd6l/image/upload/v1674156490/arrow-right_xeqlwp.png</imgbutton>
+    <created_at>2023-01-20 00:20:31.319</created_at>
+    <updated_at>2023-01-20 00:20:31.319</updated_at>
+    <published_at>2023-01-20 00:20:31.314</published_at>
+    <created_by_id></created_by_id>
+    <updated_by_id></updated_by_id>
+  </row>
+  <row>
+    <id>2</id>
+    <title></title>
+    <span></span>
+    <subtitle></subtitle>
+    <p></p>
+    <buttontext></buttontext>
+    <imgbutton></imgbutton>
+    <created_at>2023-01-20 00:25:51.64</created_at>
+    <updated_at>2023-01-20 00:25:51.64</updated_at>
+    <published_at>2023-01-20 00:25:51.633</published_at>
+    <created_by_id></created_by_id>
+    <updated_by_id></updated_by_id>
+  </row>
+</root>
