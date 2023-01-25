@@ -15,7 +15,7 @@ Let's start with cloning this repository
 
 | Strapi | Node | npm|
 | ------ | ------ |  ------|
-|     v4.3.8   |     v16.x.x   |  v6.x.x|
+|     v3.1.0-alpha.5   |     v14.x.x   |  v6.x.x|
 
 If you use yarn, every version is good!
 
@@ -104,9 +104,37 @@ There you go! You have now access to the database, you can browse the tables fre
 
 In order to make a backup of the database, first we need to make a **dump**. 
 What is a dump? Is an output of data that can help us to back up the database. 
+Well, there's a lot of ways to make a dump, so I'll list two of them
+
+## Dump with pgAdmin :passport_control:
+We open yet again pgAdmin, search the database we desire, click Backup.
+
+![backup](https://res.cloudinary.com/dweiaqd6l/image/upload/v1674681498/backupdump_v72xxg.png)
+
+You can choose any specifications you want
+
+![specidi](https://res.cloudinary.com/dweiaqd6l/image/upload/v1674681613/cooldump_vzxaco.png)
+
+Wait a little bit, and done!
+
+![done](https://res.cloudinary.com/dweiaqd6l/image/upload/v1674681788/nice_doneaa_frxhhv.png)
+
+This is a very convenient way if you want to do it with pgAdmin, because if you dump the database with CMD It will be kinda hard to restore it with pgAdmin.
+
+This way, it's only two clicks!
+
+![donao](https://res.cloudinary.com/dweiaqd6l/image/upload/v1674682190/recirt_df1yzi.png)
+
+![data](https://res.cloudinary.com/dweiaqd6l/image/upload/v1674682122/restoring_wslu8v.png)
+
+Wait a little bit, and yey! You have your data!
+
+# With CMS :computer:
 
 So let's get hands on this!
 I'm gonna assume you're a windows user, so first of all, we got to execute CMD as administrator
+
+If you're a Linux user check out this [link](https://linuxhint.com/pg-dump-postgresql/), It will help you
 
 ![cmd](https://res.cloudinary.com/dweiaqd6l/image/upload/v1674233752/open-cmd-with-admin-rights_bgmvqy.png)
 
