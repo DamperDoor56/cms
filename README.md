@@ -162,7 +162,7 @@ cd bin
 Well done! Now we need to write this command: 
 
 ```
-pg_dump -U postgres -W -h containers-us-west-127.railway.app -p 5639 railway > <name of the dump :) >.sql
+pg_dump -U postgres -W -h containers-us-west-28.railway.app -p 5639 railway > <name of the dump :) >.sql
 
 ```
 And then, is gonna ask you the password, if you forgot it, there you have it ;)
