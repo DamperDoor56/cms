@@ -1,0 +1,12 @@
+{
+  "kind": "collectionType",
+  "collectionName": "lios",
+  "info": {
+    "name": "Lio"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {}
+}
